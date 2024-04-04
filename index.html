@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Happy+Monkey&family=Workbench&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-home">
+                <h3 class="header">HOME</h3>
+                    <div id="home-card">
+                        <p id="home-score">0</p> 
+                    </div>
+                    <button onclick="homeAddOne()">+1</button>
+                    <button onclick="homeAddTwo()">+2</button>
+                    <button onclick="homeAddThree()">+3</button>
+            </div>
+            <div class="main-guest">
+                <h3 class="header">GUEST</h3>
+                     <div id="guest-card">
+                        <p id="guest-score">0</p>
+                     </div>
+                    <button onclick="guestAddOne()">+1</button>
+                    <button onclick="guestAddTwo()">+2</button>
+                    <button onclick="guestAddThree()">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
